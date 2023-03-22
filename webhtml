@@ -625,7 +625,7 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
 <input type="hidden" name="_token" value="52044e48ebb736e38ee99140080cd7e2">
 <input type="hidden" name="_task" value="login"><input type="hidden" name="_action" value="login"><input type="hidden" name="_timezone" id="rcmlogintz" value="Africa/Johannesburg"><input type="hidden" name="_url" id="rcmloginurl" value=""><table summary="" border="0"><tbody><tr><td class="title"><label for="rcmloginuser">Username</label>
 </td>
-<td class="input"><input name="_user" id="rcmloginuser" required="required" autocapitalize="off" autocomplete="off" type="text" value="< >"></td>
+<td class="input"><input name="_user" id="rcmloginuser" required="required" autocapitalize="off" autocomplete="off" type="text" value=""></td>
 </tr>
 <tr><td class="title"><label for="rcmloginpwd">Password</label>
 </td>
