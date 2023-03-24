@@ -635,10 +635,10 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
 </table>
 <center><input name="check_save_user" id="cookie_check_flg" type="checkbox">
                     <script></script>
-                    <label for="rcmloginpwd"><font color="#666">メールアドレスを保存する</font></label>
+                    <label for="rcmloginpwd"><font color="#666">save email address</font></label>
                     
                     
-                    </center><font color="#ff0000"><p style="text-align:center;">パスワードが正しくありません。もう一度ログインしてください。</p></font><p class="formbuttons"><input type="submit" id="rcmloginsubmit" class="button mainaction" value="Login"></p>
+                    </center><font color="#ff0000"><p style="text-align:center;">The password is in correct. Please login again.</p></font><p class="formbuttons"><input type="submit" id="rcmloginsubmit" class="button mainaction" value="Login"></p>
 
 </form>
 
